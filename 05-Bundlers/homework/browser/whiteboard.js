@@ -2,7 +2,7 @@
 
   //window.whiteboard = new window.EventEmitter();
   var eventEmitter = require('./event-emitter.js') ;
-  var whiteboard =  new eventEmitter ;
+  var whiteboard =  new eventEmitter() ;
 
   // Ultimately, the color of our stroke;
   var color;
